@@ -1,6 +1,6 @@
 {"intents": [
     {"tag": "greeting",
-     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "patterns": ["Hi", "Hey", "Hello", "Hay"],
      "responses": ["Hello", "Hi", "Hi there"]
     },
     {"tag": "goodbye",
@@ -11,17 +11,21 @@
      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
      "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
     },
-    {"tag": "about",
-     "patterns": ["Who are you?", "What are you?", "Who you are?" ,"what is your name", "what should I call you", "whats your name?"],
-     "responses": ["I'm BabyBlues, and I cared about your health and wellness!"]
+    {"tag": "mood-swing",
+    "patterns": ["have mood-swing", "have a mood swing","feel negative", "I feel sad","I feel upset"],
+    "responses": ["Don't hesitate to reach out to your family!", "You are always free to express your true feeling!", "You deserve care as well. It's not just about the baby."]
+    },
+    {"tag": "symptom",
+    "patterns": ["which kind of symptoms", "what kinds of symptoms"],
+    "responses": ["Feeling sad", "feeling agitated", "lack of energy, loss of interest, trouble sleeping, feeling self-blame, feeling anxious about the baby."]
     },
     {"tag": "help",
-    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
-    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    "patterns": ["how can I treat", "how are more about self-help","how are ways to help myself", "how are some advice for treatments"],
+    "responses": ["The first suggestion is to look for doctors and professional advice. Meanwhile, from many past experience and advice from mothers, spending more time on yourself is a great way for self-help. Here is a list of things that you could try on to relieve your stress and anxiety: origami, take a walk, painting, picking up an instrument, meditation...or anything that you enjoy~"]
     },
-    {"tag": "mood-swing",
-    "patterns": ["have a mood-swing", "have a mood swing","feel negative", "I feel sad","I feel upset"],
-    "responses": ["It's common to be this way.", "Don't hesitate to reach out to your family!"]
+    {"tag": "connection",
+    "patterns": ["how to connect with my family", "how should I connect with my family", "should I connect with my family"],
+    "responses": ["If you feel comfortable, definitely share your feelings and symptoms with your loved ones.", "Connecting with them could also help distract your attention from the negativity. No hesitation to seek encouragement from them!"]
     }
 ]
 }
