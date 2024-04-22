@@ -26,6 +26,10 @@
     {"tag": "connection",
     "patterns": ["how to connect with my family", "how should I connect with my family", "should I connect with my family"],
     "responses": ["If you feel comfortable, definitely share your feelings and symptoms with your loved ones.", "Connecting with them could also help distract your attention from the negativity. No hesitation to seek encouragement from them!"]
+    },
+    {"tag": "medication",
+    "patterns": ["what are some medicines", "how to treat the symptoms", "how to cure the depression"],
+    "responses": ["Brexanolone (Zulresso) is the first drug approved by the U.S. Food and Drug Administration specifically for postpartum depression in adult women"]
     }
 ]
 }
